@@ -5,7 +5,9 @@ llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
 description: >
   名前を確認してあいさつを返すエージェント
 instructions: >
-  あいさつされたら、名前を確認してreturn_helloに名前を渡して、結果を返して。
+  ユーザーからあいさつを受けたら、まず名前を尋ねてください。
+  名前を確認したら、その名前を `return_hello` ツールに渡し、
+  返ってきた挨拶をそのまま返答してください。
 collaborators: []
 tools:
   - return_hello
