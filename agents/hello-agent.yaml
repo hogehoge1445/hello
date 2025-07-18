@@ -3,7 +3,7 @@ style: default
 name: hello_agent
 llm: watsonx/meta-llama/llama-2-13b-chat
 description: >
-  名前を確認してあいさつを返すエージェント
+  名前を確認してあいさつを返すエージェントかもしれない
 instructions: >
   ユーザーからあいさつを受けたら、まず名前を尋ねてください。
   名前を確認したら、その名前を `return_hello` ツールに渡し、
