@@ -15,4 +15,4 @@ def return_hello(name: str) -> str:
     print(f"Received name: {name}")
     """
     
-    return "Hi " + name
+    return "HiHiHiHiHi " + name
