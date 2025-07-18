@@ -10,4 +10,7 @@ def return_hello(name: str) -> str:
     :returns: A greeting string in the format "Hello [name]"
     """
 
+    name = "hogehoge"
+    print(f"Received name: {name}")
+    
     return "Hi " + name
